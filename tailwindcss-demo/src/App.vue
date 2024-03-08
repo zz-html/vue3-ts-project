@@ -1,9 +1,16 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <div>
+  <div class="w-32 h-32 bg-blue-500">
+    TailwindCS
+  </div>
+  <div class="p-2 text-gray-900 font-semibold">首页</div>
+  <div class="p-2 text-gray-900 font-semibold">学习TailwindCSS</div>
+  <div class="p-2 text-gray-900 font-semibold">TailwindCSS的设计哲学</div>
+  <div class="p-2 text-gray-900 font-semibold">最佳实践</div>
+  <!-- <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
@@ -11,7 +18,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <HelloWorld msg="Vite + Vue" /> -->
 </template>
 
 <style scoped>
@@ -26,5 +33,9 @@ import HelloWorld from './components/HelloWorld.vue'
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+.test {
+  background: red;
+  height: 8rem/* 128px */;
 }
 </style>
